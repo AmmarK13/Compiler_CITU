@@ -1,0 +1,18 @@
+shuru 
+    int num, fact, i;
+
+    likho("Enter a number:");
+    padho(num);
+
+    fact = 1;
+    i = 1;
+
+    jabtak (i <= num) {
+        fact = fact * i;
+        i = i + 1;
+    }
+
+    likho("Factorial is:");
+    likho(fact);
+
+khatam
